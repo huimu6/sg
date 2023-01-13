@@ -1,0 +1,207 @@
+
+</html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				overflow: hidden;
+				display: flex;
+			}
+			body > div{
+				flex:1;
+				width: 500px;
+				height: 100vh;
+			}
+			.left{
+				background: #2a2d3e;
+				color:yellow ;
+				text-align: center;
+				padding-top: 100px;
+			}
+			.right{
+				color: white;
+				background: #0d92b3;
+			}
+			.right .item{
+				width: 80%;
+				padding: 20px;
+				background: rgba(0, 0, 0, .5);
+				border-radius: 10px;
+				margin: 20px auto;
+			}
+			.touxiang{
+				border-radius: 500%;
+			}
+			h2{
+				font-weight: 4;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="left">
+			<img src="tx.jpg" class="touxiang">
+			<h1>帅锅的主页</h1>
+			<p>“千里之行，始于足下”</p>
+			<p>微信：nlceg139或nlceg1394</p>
+			<p>qq:2301136581</p>
+		</div>
+		<div class="right">
+			<div class="item">
+				<h2>未完成的主页</h2>
+				<p>文章，个人介绍，音乐播放器，侧边菜单</p>
+			
+			<!DOCTYPE html>
+
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="player">
+        <!-- 歌曲信息模块 -->
+        <div id="player-content1">
+            <!-- 歌曲名 -->
+            <div class="music-name"></div>
+            <!-- 歌手名 -->
+            <div class="artist-name"></div>
+            <!-- 歌曲时间 -->
+            <div class="time">
+                <!-- 当前播放的时间 -->
+                <div class="current-time"></div>
+                <!-- 歌曲总时长 -->
+                <div class="total-time"></div>
+            </div>
+            <!-- 进度条 -->
+            <div id="s-area">
+                <!-- 鼠标移动到进度条上，显示的时间信息 -->
+                <div id="ins-time"></div>
+                <!-- 鼠标移动到进度条上，进度条变暗部分-->
+                <div id="s-hover"></div>
+                <!-- 表示当前歌曲播放进度的蓝色进度条 -->
+                <div id="seek-bar"></div>
+            </div>
+        </div>
+
+        <!-- 控制模块 -->
+        <div id="player-content2">
+            <!-- 左侧歌曲封面旋转模块 -->
+            <div class="music-imgs">
+                <!-- 封面图 -->
+                <div class="img"></div>
+                <!-- 歌曲缓冲时的提示文字 -->
+                <div id="buffer-box">缓冲…</div>
+            </div>
+            <!-- 右侧歌曲操作模块 -->
+            <div class="player-controls">
+                <!-- 上一首按钮 -->
+                <div class="btn prev iconfont">&#xe603;</div>
+                <!-- 暂停/播放 按钮 -->
+                <div class="btn play-pause icon-jiediankaishi iconfont"></div>
+                <!-- 下一首按钮 -->
+                <div class="btn next iconfont">&#xe602;</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+			</div>
+		</div>
+	<html>
+   <head>
+       <style type="text/css">
+        .top{
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background: #2a2d3e;
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.top ul{
+    /* 清除ul标签的默认样式 */
+    width: auto;/*宽度也改为自动*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    /* margin-top: 0;          */
+    padding: 0;
+ 
+}
+.top li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+ 
+.top li a{
+   /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    
+}
+.top li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background-color:black ;
+}
+.top ul li ul{
+    /* 设置二级菜单 */
+    margin-left: -0.2px;
+    background:rgb(189, 181, 181);
+    position: relative;
+    display: none; /* 默认隐藏二级菜单的内容 */
+ 
+}
+.top ul li ul li{
+    /* 二级菜单li内容的显示 */
+    
+    float:none;
+    text-align: center;
+}
+.top ul li:hover ul{
+    /* 鼠标选中二级菜单内容时 */
+    display: block;
+}
+body{
+    background:#eff3f5;
+}
+ 
+       </style>
+        <body>
+            <div class="top">
+                   <center> 
+                    <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">菜单</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="#"><b>个人介绍</b></a></li>
+                    <li><a href="#">牛逼</a></li>
+                    <li>
+                        <a href="#">ikun</a>
+                        <ul>
+                            <li><a href="#">设置</a></li>
+                            <li><a href="#">下载</a></li>
+                        </ul>
+                    </li>        
+                      </ul>
+                    </center>      
+            </div>
+        </body>
+    </head>
+</html>
+	
+</html>
